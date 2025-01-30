@@ -1,0 +1,16 @@
+﻿@using Stimulsoft.Report.Web;
+@using Stimulsoft.Report.Mvc;
+
+@{
+    ViewData["Title"] = "VehicleProduction.mrt - Designer";
+}
+
+@Html.Stimulsoft().StiMvcDesigner("MvcDesigner1", new StiMvcDesignerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        SaveReport = "SaveReport",
+        DesignerEvent = "DesignerEvent"
+    }
+})

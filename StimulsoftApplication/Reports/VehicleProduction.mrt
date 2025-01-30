@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <VechicleProduction Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>Vechicle Production</Alias>
+        <Key />
+        <Name>VechicleProduction</Name>
+        <PathData>resource://Auto</PathData>
+        <PathSchema />
+      </VechicleProduction>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Auto Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Auto</Alias>
+        <Columns isList="true" count="5">
+          <value>Country,System.String</value>
+          <value>Rank,System.String</value>
+          <value>Year2010,System.String</value>
+          <value>Year2015,System.String</value>
+          <value>Year2019,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>04d339389f4d4713b67335a7b0d91a03</Key>
+        <Name>Auto</Name>
+        <NameInSource>VechicleProduction.Auto</NameInSource>
+      </Auto>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=Auto, Alias=Auto, Type=Xml, Content=UzsPCVJuq7sV0PkuvyYxzwSyaNpV12HCDj_x002B_ZSF4tS8wTglzdhcCClnYQDbKVHpgZ0tYnbvrRST6n7dXf3Tnhw7bzcWNzlyqXmr1PyssM8SvEAk_x002F_l5m3Q8XEwiTeA8o4ExVZfp5SC9DjqwPuLc7NdjbzQFQJ71XdrK_x002F_oL9xJY2MFS5FWuHPnbRlTx4nlzXOpRV9GGL5BSCwZXT_x002F_k9TV7_x002B_pI3rKvHoG8MoGR7ZAgjK5SW81rwjXFqSE6SS7WvN9EdlmX_x002F_dLYaFyDEtmtgipD49vIiaENpr0LNYWbNUs38Zag_x002B_VUfxF5y5JpfuGMtepcVKXqPRDEur2vRdvGh1GP9NRfG_x002F_b0BsDA83qqtEBJWQldsduLSF4CfC5lULmISmmPQYQW5_x002B_D_x002F_0SiEnVg6Z3_x002F_V7C5FIbel7TsI20ZzAoBfk7ckB2RLAYDRe_x002F_aHzMUpFgq7aXH_x002B_t9MAUbjUQ1IAnhrI2p1uglSYcWl6zuPFjtoch6lZFHFLlby1v3Ir7gdhXBv9zv6MOqBAgf6Su38IPrnEWVt8BCQ6L5BIfKVUQYrfasp9ZJVQDAdg9SwE_x002F_ON5A2T7gg74Em_x002B_mqT_x002F_kSsRNZe6Gihyq6ZK_x002F_MiIwjhP675ICb0zr9A6EB_x002F_vWhPXIMI1HyETN1zBoCGuH86lZpaeKY1ioJx4eD_x002F_Lp63w0iG1_x002B_JcbvcyF5ZBwil7IlWGn8pYeihoGG_x002B_yPXFpbSZff33sV_x002F_YFW2yqHuiuYySnSmRIOP0OGg6Uz3IYA8bsSt9WemHnAozvCg3f99mumCT5znDX2dJV5be4ss_x002F_Z30GTpw8H91qnmyFyXfhYXESKfdhOsxQPw2Gr8pzxD1q0zdOALO6Tx8CUgGJ4Gy2R4c7VB_x002B_LnIqsiew4zhwrMkYCi0f8_x002B_3OazguovuekZwXLuMGyPWL1N28FQiF9ZIvv4dS6ONOfDKW4vRl_x002F_jxHEywU1USFe_x002F_tEFne9Uf4RPbC7E_x002B_GTiX0zNMzZ1plE_x002B_iXRkVidsTGZqmaNegdIWNUASa3AqswJV1mk_x002B_Aq_x002B_xI47xXSjRoGV6BdDA6JhuPsNOjxZ4ic99tQViDB7ntJslLdFsoXmvbrgQTEDGRjDW1Zodlg2LEtkwaHHgklb3HWR4KtcFF3nVXhy7Gb_x002B_LAYonOxUxVmvn8YfGjwSU8NEokAwLP60UViafwlGm_x002F_w30R07hRVklEoXnlonai8nVLlRJUyVWZ4bwz4l2m8yETAd_x002F_tzAxy9_x002F_Epc4Ovxo7Erc6heehuSW0qPGsZngSHK1v899csEtihaOkWI00Agk0qLwaV9IvQnyHf9wQjvm8pQjnlF4lMYOh_x002F_taoB10_x002B_jEu5zZho4pnJDrldosujEIeal2qaoTAe_x002F__x002F_vKgv0DnaqvrmxEA5qJp9GDq5LyJeZxFg7ZQww9X6Gk1yC2spzfK83c7O8TWvuNTBJAkMpONXwWnKvbl126dOKMRMCWlJbA6G_x002F_TNJMTFoW_x002F_PLFOIdmmF010EO6Qg0wKPpMQhCc2kC09Uim51tVJ09KQ5vsnyvLAmw3R3wEpKbHX8sL38abi_x002F_ia8aEcDKZmQvDcmMgThLLN5jCdZXI5AVKaYH4C62sLuX8n5L0KSMMFXJjs_x002F_r084Yh0zJ8prwyoxDsKzASSlF7pmPgng54ZoCBAIy0eTSmsNvyssBii8OecjUCOic690r4eMTEkIMZCB_x002B_aQmQga7jd3SdlRdZEYTUTwI_x002F_S9Q5qRmlRX4l2L0QKIaEpSMJULm1Z7VpCf5EdHO_x002B_7BAgoFlYywdySX_x002F_SGv2TO9sx3IOdUymKJ7WMucYnRiotuTu9rll0ec_x002F_a0mah4UVHElTP3NdIyvfZu7Mo_x002B_jb_x002B_sdnUNC0k1Lff2_x002B_cd9D6n9q4kE3l3XPfUwzbAmOW4kNcbh8QKCkKlaFnDsYIRcuIGUajCkWv9MW_x002B_C7lSiA5JUK8tjoTx9IJsapny9MnAe3VrmCjUWwhJR7PRVR5i6G</value>
+    </Resources>
+    <UserFunctions isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>5e1e1a0895d2466391620529971d616d</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="4" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <ReportTitle Ref="5" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19.01,1.4</ClientRectangle>
+          <Components isList="true" count="1">
+            <ReportTitleText Ref="6" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19.01,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,20,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>ReportTitleText</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>Auto</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </ReportTitleText>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportTitle</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </ReportTitle>
+        <Header Ref="7" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.6,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="5">
+            <HeaderText1 Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>HeaderText1</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>Country</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderText1>
+            <HeaderText2 Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.8,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>HeaderText2</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>Rank</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderText2>
+            <HeaderText3 Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.6,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>HeaderText3</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>Year2010</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderText3>
+            <HeaderText4 Ref="11" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.4,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>HeaderText4</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>Year2015</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderText4>
+            <HeaderText5 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.2,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>HeaderText5</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>Year2019</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderText5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>Header</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </Header>
+        <Data Ref="13" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="5">
+            <DataText1 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>DataText1</Name>
+              <Page isRef="4" />
+              <Parent isRef="13" />
+              <Text>{Auto.Country}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText1>
+            <DataText2 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.8,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>DataText2</Name>
+              <Page isRef="4" />
+              <Parent isRef="13" />
+              <Text>{Auto.Rank}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText2>
+            <DataText3 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.6,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>DataText3</Name>
+              <Page isRef="4" />
+              <Parent isRef="13" />
+              <Text>{Auto.Year2010}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText3>
+            <DataText4 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.4,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>DataText4</Name>
+              <Page isRef="4" />
+              <Parent isRef="13" />
+              <Text>{Auto.Year2015}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText4>
+            <DataText5 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.2,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Name>DataText5</Name>
+              <Page isRef="4" />
+              <Parent isRef="13" />
+              <Text>{Auto.Year2019}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataText5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Auto</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>Data</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Sort isList="true" count="0" />
+        </Data>
+        <Footer Ref="19" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,5.4,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>Footer</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </Footer>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>56ef54d455e849eabeddc8288f3f4612</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.69</PageHeight>
+      <PageWidth>21.01</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>1/30/2025 2:46:55 AM</ReportChanged>
+  <ReportCreated>1/30/2025 2:46:55 AM</ReportCreated>
+  <ReportGuid>2f84093481e94ccd95ecc351d2f9a4c2</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2025.1.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
